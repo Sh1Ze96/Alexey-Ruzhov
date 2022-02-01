@@ -21,3 +21,32 @@ https://stepik.org/course/Поколение-Python-курс-для-начина
         print('16')
         print('23')
         print('42')
+        
+Код№4 - print('*')
+        print('**')
+        print('***')
+        print('****')
+        print('*****')
+        print('******')
+        print('*******')
+        
+Код№5 - name=input()
+        print('Привет,', name)
+        
+Код№6 - name=input()
+        print(name,'- чемпион!')
+        
+Код№7 - name1=input()
+        name2=input()
+        name3=input()
+        print(name1)
+        print(name2)
+        print(name3)
+        
+Код№8 - name3=input()
+        name2=input()
+        name1=input()
+        print(name1)
+        print(name2)
+        print(name3)
+        ![Opera Снимок_2022-02-01_222735_stepik org](https://user-images.githubusercontent.com/97594421/152037381-80ca8a24-64af-4e71-8921-27a80decd0eb.png)
