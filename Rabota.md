@@ -9,8 +9,9 @@ https://stepik.org/course/Поколение-Python-курс-для-начина
 
 <h1><strong>2  Ввод-вывод данных</h1></strong>
 
-<h1><strong>2.1 Введение. Знакомство с Python!</h1></strong>[Opera Снимок_2022-02-01_212459_stepik org](https://user-images.githubusercontent.com/97594421/152031504-e4476815-0cc3-4464-b900-19e4d990efaa.png)
-<h1><strong><h1><strong>2.2 Команды print и input</h1></strong>
+<strong>2.1 Введение. Знакомство с Python!</strong> 
+![Opera Снимок_2022-02-01_212459_stepik org](https://user-images.githubusercontent.com/97594421/152031504-e4476815-0cc3-4464-b900-19e4d990efaa.png)
+<strong><h1><strong>2.2 Команды print и input</strong>
 
 Код№1 - print('Здравствуй, мир!')
 
@@ -52,7 +53,7 @@ https://stepik.org/course/Поколение-Python-курс-для-начина
         print(name3)
         ![Opera Снимок_2022-02-01_222735_stepik org](https://user-images.githubusercontent.com/97594421/152037381-80ca8a24-64af-4e71-8921-27a80decd0eb.png)
         
-<h1><strong>2.3 Параметры sep и end</h1></strong>
+<strong>2.3 Параметры sep и end</strong>
 
 Код№1 - print('I', 'like', 'Python', sep='***')
 
