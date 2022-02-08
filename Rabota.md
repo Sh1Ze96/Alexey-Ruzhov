@@ -51,9 +51,9 @@ https://stepik.org/course/Поколение-Python-курс-для-начина
         print(name2)
         print(name3)
         ![Opera Снимок_2022-02-01_222735_stepik org](https://user-images.githubusercontent.com/97594421/152037381-80ca8a24-64af-4e71-8921-27a80decd0eb.png)
-         
-        2.3 Параметры sep и end
         
+2.3 Параметры sep и end
+
 Код№1 - print('I', 'like', 'Python', sep='***')
 
 Код№2 - a=input()
