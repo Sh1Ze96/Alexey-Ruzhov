@@ -1,4 +1,5 @@
 # Alexey-Ruzhov
+https://replit.com/@Sh1Ze96/Ruzhov-205
 
 "Поколение Python": курс для начинающих Курс с кучей тренировочных задач, удобный как для самостоятельного изучения, так и для работы в группе в рамках внеурочной деятельности. 
 
@@ -50,4 +51,18 @@ https://stepik.org/course/Поколение-Python-курс-для-начина
         print(name2)
         print(name3)
         ![Opera Снимок_2022-02-01_222735_stepik org](https://user-images.githubusercontent.com/97594421/152037381-80ca8a24-64af-4e71-8921-27a80decd0eb.png)
-https://replit.com/@Sh1Ze96/Ruzhov-205
+         
+        2.3 Параметры sep и end
+        
+Код№1 - print('I', 'like', 'Python', sep='***')
+
+Код№2 - a=input()
+        b=input()
+        c=input()
+        d=input()
+        print(b, c, d, sep=a) 
+
+Код№3 - name=input() 
+        print('Привет,', name, end='!')
+        ![изображение_2022-02-08_212815](https://user-images.githubusercontent.com/97594421/153052251-6c047927-a40d-4f20-a1d9-8da81c8ba01e.png)
+
