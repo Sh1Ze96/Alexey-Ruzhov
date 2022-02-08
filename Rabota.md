@@ -9,8 +9,7 @@ https://stepik.org/course/Поколение-Python-курс-для-начина
 
 <h1><strong>2  Ввод-вывод данных</h1></strong>
 
-<h1><strong>2.1 Введение. Знакомство с Python!</h1></strong>
-        [Opera Снимок_2022-02-01_212459_stepik org](https://user-images.githubusercontent.com/97594421/152031504-e4476815-0cc3-4464-b900-19e4d990efaa.png)
+<h1><strong>2.1 Введение. Знакомство с Python!</h1></strong>[Opera Снимок_2022-02-01_212459_stepik org](https://user-images.githubusercontent.com/97594421/152031504-e4476815-0cc3-4464-b900-19e4d990efaa.png)
 <h1><strong><h1><strong>2.2 Команды print и input</h1></strong>
 
 Код№1 - print('Здравствуй, мир!')
