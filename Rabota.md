@@ -7,7 +7,7 @@ https://stepik.org/course/Поколение-Python-курс-для-начина
 
 "Поколение Python": курс для начинающих"
 
-2  Ввод-вывод данных
+<h1><strong>2  Ввод-вывод данных</h1></strong>
 
 2.1 Введение. Знакомство с Python![Opera Снимок_2022-02-01_212459_stepik org](https://user-images.githubusercontent.com/97594421/152031504-e4476815-0cc3-4464-b900-19e4d990efaa.png)
 2.2 Команды print и input
