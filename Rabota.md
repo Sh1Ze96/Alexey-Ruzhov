@@ -66,4 +66,20 @@ https://stepik.org/course/Поколение-Python-курс-для-начина
 Код№3 - name=input() 
         print('Привет,', name, end='!')
         ![изображение_2022-02-08_212815](https://user-images.githubusercontent.com/97594421/153052251-6c047927-a40d-4f20-a1d9-8da81c8ba01e.png)
+<strong>2.4 Целочисленная арифметика</strong>
 
+Код№1 - a = int(input()) print(a) print(a + 1) print(a + 2)
+
+Код№2 - a = int(input()) b = int(input()) c = int(input()) print(a + b + c)
+
+Код№3 - a = int(input()) print('Объем =', a * a * a) print('Площадь полной поверхности =', 6 * a * a)
+
+Код№4 - a = int(input()) b = int(input()) print(3 * (a+b) * (a+b) * (a+b) + 275 * b * b - 127 * а - 41)
+
+Код№5 - a = int(input()) print('Следующее за числом', a, 'число:', a + 1) print('Для числа', a, 'предыдущее число:', a - 1)
+
+Код№6 - a = int(input()) b = int(input()) c = int(input()) d = int(input()) print(3 * (a + b + c + d))
+
+Код№7 - a = int(input()) b = int(input()) print(f"{a} + {b} = {a+b}") print(f"{a} - {b} = {ab}") print(f"{a} * {b} = {a*b}")
+
+Код№8 - a = int(input()) b = int(input()) c = int(input()) d = a + b * (c - 1) print(d) Код№9 - a = int (input()) print(a, 2 * a, 3 * a, 4 * a, 5 * a, sep='---')
