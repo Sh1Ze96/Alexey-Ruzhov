@@ -83,3 +83,23 @@ https://stepik.org/course/Поколение-Python-курс-для-начина
 Код№7 - a = int(input()) b = int(input()) print(f"{a} + {b} = {a+b}") print(f"{a} - {b} = {ab}") print(f"{a} * {b} = {a*b}")
 
 Код№8 - a = int(input()) b = int(input()) c = int(input()) d = a + b * (c - 1) print(d) Код№9 - a = int (input()) print(a, 2 * a, 3 * a, 4 * a, 5 * a, sep='---')
+
+<strong>2.5 Целочисленная арифметика</strong>
+
+Код№1 - b1 = int(input()) q = int(input()) n = int(input()) print(b1 * q ** (n-1))
+
+Код№2 - ab = int(input()) b = ab // 100 print(b)
+
+Код№3 - sch = int(input()) fru = int(input()) print(fru//sch) print(fru%sch)
+
+Код№4 - ребята = int(input()) print(ребята//2 + ребята%2)
+
+Код№5 - a = int(input()) print((a-1) // 4 + 1)
+
+Код№6 - min = int(input()) print(min, f'мин - это {min // 60} час {min % 60} минут.')
+
+Код№7 - abcd = int(input()) print('Сумма цифр =', abcd//100 + (abcd % 100) // 10 + abcd%10) print('Произведение цифры =', (abcd// 100) * ((abcd % 100) // 10) * (abcd% 10))
+
+Код№8 - abc = int(input()) c = abc % 10 b = (abc % 100) // 10 a = abc // 100 print(a, b, c, sep='') print(a, c,b, sep='') print(b,a,c, sep='') print(b,c,a, sep='') print(c,a,b, sep='') print( в, б, а, раздел = '')
+
+Код№9 - a = int(input()) a1 = a // 1000 a2 = (a // 100) % 10 a3 = (a // 10) % 10 a4 = a % 10 print("Цифра в позиции тысяч равным", a1) print("Цифра в позиции примерно равной", a2) print("Цифра в позиции примерно равной", a3) print("Цифра в позиции примерно равной", a4)
