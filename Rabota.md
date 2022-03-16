@@ -126,3 +126,5 @@ https://stepik.org/course/Поколение-Python-курс-для-начина
 Код№8 - a = int(input()) if a <= 13: print('детство') elif a >= 14 и a <= 24: print('молодость') elif a >= 25 и a <= 59: print('зрелость') elif a >= 60: print('старость')
 
 Код№9 - a = int(input()) b = int(input()) c = int(input()) d = int() d = 0, если a > 0: d = d + a, если b > 0 : d = d + b, если c > 0 d = d + c print(d)
+        ![image](https://user-images.githubusercontent.com/97594421/158535532-48f02508-41d8-47c8-9240-ad5a92171eba.png)
+
