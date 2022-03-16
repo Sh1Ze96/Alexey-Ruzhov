@@ -107,4 +107,22 @@ https://stepik.org/course/Поколение-Python-курс-для-начина
 Код№9 - a = int(input()) a1 = a // 1000 a2 = (a // 100) % 10 a3 = (a // 10) % 10 a4 = a % 10 print("Цифра в позиции тысяч равным", a1) print("Цифра в позиции примерно равной", a2) print("Цифра в позиции примерно равной", a3) print("Цифра в позиции примерно равной", a4)
         ![image](https://user-images.githubusercontent.com/97594421/158534306-dabff4e3-8fcc-4fa5-b1c3-d64620367f43.png)
 
+4.1 Выбор из двух
 
+Код№1 - a = input() b = input() if a == b: print('Пароль принят') else: print('Пароль не принят')
+
+Код№2 - a = int(input()) if a % 2 == 0: print('Четное') else: print('Нечетное')
+
+Код№3 - a = int(input()) b = a // 1000 c = a // 100 - (a // 1000 * 10) d = (a % 100 - a % 10) / 10 e = a % 10 if b + e == c - d: print('ДА') else: print('НЕТ')
+
+Код№4 - age = int(input()) if age >= 18: print('Доступ разрешен') else: print('Доступ запрещен')
+
+Код№5 - a = int(input()) b = int(input()) c = int(input()) if b - a == c - b: print('ДА') else: print('НЕТ ')
+
+Код№6 - a = int(input()) b = int(input()) if a > b: print(b) else: print(a)
+
+Код№7 - a = int(input()) b = int(input()) c = int(input()) d = int(input()) e = min(a, b, c, d) print( д)
+
+Код№8 - a = int(input()) if a <= 13: print('детство') elif a >= 14 и a <= 24: print('молодость') elif a >= 25 и a <= 59: print('зрелость') elif a >= 60: print('старость')
+
+Код№9 - a = int(input()) b = int(input()) c = int(input()) d = int() d = 0, если a > 0: d = d + a, если b > 0 : d = d + b, если c > 0 d = d + c print(d)
