@@ -107,7 +107,7 @@ https://stepik.org/course/Поколение-Python-курс-для-начина
 Код№9 - a = int(input()) a1 = a // 1000 a2 = (a // 100) % 10 a3 = (a // 10) % 10 a4 = a % 10 print("Цифра в позиции тысяч равным", a1) print("Цифра в позиции примерно равной", a2) print("Цифра в позиции примерно равной", a3) print("Цифра в позиции примерно равной", a4)
         ![image](https://user-images.githubusercontent.com/97594421/158534306-dabff4e3-8fcc-4fa5-b1c3-d64620367f43.png)
 
-4.1 Выбор из двух
+<strong>4.1 Выбор из двух</strong>
 
 Код№1 - a = input() b = input() if a == b: print('Пароль принят') else: print('Пароль не принят')
 
@@ -127,4 +127,51 @@ https://stepik.org/course/Поколение-Python-курс-для-начина
 
 Код№9 - a = int(input()) b = int(input()) c = int(input()) d = int() d = 0, если a > 0: d = d + a, если b > 0 : d = d + b, если c > 0 d = d + c print(d)
         ![image](https://user-images.githubusercontent.com/97594421/158535532-48f02508-41d8-47c8-9240-ad5a92171eba.png)
+        
+<strong>4.2 Логические операции</strong>
+Код№1 -a = int(input())
+if a > -1 and a < 17:
+    print('Принадлежит')
+else:
+    print('Не принадлежит')
+Код№2 -n = int(input())
+if not (-3 < n < 7):
+    print('Принадлежит')
+else:
+    print('Не принадлежит')
+                    
+Код№3 - a = int(input())                 
+if (a > -30 and a <= -2) or (a > 7 and a <= 25):
+    print('Принадлежит')
+else:
+    print('Не принадлежит')
+                                               
+Код№4 - a = int(input())
+if (a % 7 == 0 or a % 17 == 0) and (a >= 1000 and a <= 9999):
+    print('YES')
+else:
+    print('NO')
+                                                            
+Код№5 - a = int(input())
+b = int(input())
+c = int(input())
+if (a < (b + c)) and (b < (a + c)) and (c < (a + b)):
+    print("YES")
+else:
+    print("NO")
 
+Код№6 - import calendar
+print("YES" if calendar.isleap(int(input())) else "NO")
+
+Код№7 - a, b, c, d = int(input()), int(input()), int(input()), int(input())
+if a == c or b == d:
+    print('YES')
+else:
+    print('NO')
+
+Код№8 - a, b, c, d = int(input()), int(input()), int(input()), int(input())
+if (-1 <= a - c <= 1) and (-1 <= b - d <= 1):
+    print('YES')
+else:
+    print('NO')
+        ![image](https://user-images.githubusercontent.com/97594421/159642277-c2a013bb-7c28-49d1-a781-375871e74a14.png)
