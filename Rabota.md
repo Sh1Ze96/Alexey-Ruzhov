@@ -175,3 +175,28 @@ if (-1 <= a - c <= 1) and (-1 <= b - d <= 1):
 else:
     print('NO')
         ![image](https://user-images.githubusercontent.com/97594421/159642277-c2a013bb-7c28-49d1-a781-375871e74a14.png)
+        
+<strong>4.3 Вложенные и каскадные условия</strong>
+
+Код№1 - a = int(input()) b = int(input()) если b > a: print("ДА") если a > b: print("НЕТ") если a == b: print( "Не знаю")
+
+Код№2 - a = int(input()) b = int(input()) c = int(input()) if a == b == c: print("Равносторонний") if (a == b или a == c или b == c) и (a != c или a != b или b != c): print("Равнобедренный"), если a != b и a != c и c != b: print("Разносторонний")
+
+Код№3 - a, b, c = int(input()), int(input()), int(input()) если a < b < c или a > b > c: print(b) elif b < c < a или b > c > a: print(c) else: print(a)
+
+Код№4 - m = int(input()) if m == 2: print('28') elif m <= 7: print(30 + m%2 ) else: print(31 - m%2 )
+
+Код№5 - n = int(input()) if n < 60: print('Легкий вес') elif n < 64: print('Первый полусредний вес') elif n < 69: print('Полусредний вес')
+
+Код№6 - a, b = int(input()), int(input()) s = input() if s == '+': print(a + b) elif s == '-': print( a - b) elif s == '*': print(a * b) elif s == '/': if b == 0: print('На ноль делиться нельзя!') else: print(a / b) else: print('Неверная операция')
+
+Код№7 - color1, color2 = input(), input() if color1 == 'красный' и color2 == 'синий' или (color1 == 'синий' и color2 == 'красный'): print('фиолетовый ') elif color1 == 'желтый' and color2 == 'синий' или (color1 == 'синий' and color2 == 'желтый'): print('зеленый') elif color1 == 'красный' and color2 == 'желтый' или (color1 == 'желтый' и color2 == 'красный'): print('оранжевый') elif color1 == 'красный' и color2 == 'красный' или color1 == 'желтый' и color2 = = 'желтый' или color1 == 'синий' и color2 == 'синий': print(color1) else: print('ошибка цвета')
+
+Код№8 - n = int(input())
+
+если n < 0 или n > 36: print('ошибка ввода') elif n == 0: print('зеленый') elif 1 <= n <= 10: if n % 2 == 0: print('черный' ) else: print('красный') elif 11 <= n <= 18: if n % 2 == 0: print('красный') else: print('черный') elif 19 <= n <= 28: if n % 2 == 0: print('черный') else: print('красный') elif 29 <= n <= 36: if n % 2 == 0: print('красный') else: print('черный ')
+
+Код№9 - a1, b1, a2, b2 = int(input()), int(input()), int(input()), int(input())
+
+if a2 < a1: if b2 < a1: print('пустое множество' elif b2 == a1: print(b2) elif a1 < b2 <= b1: print(a1, b2) elif b2 > b1: print(a1, b1 ) elif a2 == a1: if b2 <= b1: print(a2, b2) else: print(a2, b1) elif a2 < b1: if b2 <= b1: print(a2, b2) else: print(a2, b2) b1) elif a2 == b1: print(a2) else: print('пустое множество')
+![photo1649225812](https://user-images.githubusercontent.com/97594421/161908570-3b24d56d-3713-4f17-a0dd-bb3b36aa1bde.jpeg)
