@@ -200,3 +200,30 @@ else:
 
 if a2 < a1: if b2 < a1: print('пустое множество' elif b2 == a1: print(b2) elif a1 < b2 <= b1: print(a1, b2) elif b2 > b1: print(a1, b1 ) elif a2 == a1: if b2 <= b1: print(a2, b2) else: print(a2, b1) elif a2 < b1: if b2 <= b1: print(a2, b2) else: print(a2, b2) b1) elif a2 == b1: print(a2) else: print('пустое множество')
 ![photo1649225812](https://user-images.githubusercontent.com/97594421/161908570-3b24d56d-3713-4f17-a0dd-bb3b36aa1bde.jpeg)
+
+<strong>6.1 Числовые типы данных: int, float</strong>
+
+Код№1 - print(0.5 * float(input()) * float(input()))
+
+Код№2 - s=float(input()) a=float(input()) b=float(input()) print(s/(a+b))
+
+Код№3 - a = float(input()) if a == 0: print('Обратного числа не существует') else: print(1 / a)
+
+Код№4 - f = float(input()) print(5 / 9 * (f - 32))
+
+Код№5 - t = int(input()) print(min(2, t) * 10.5 + max(t - 2, 0) * 4)
+
+Код№6 - a = float(input()) print(int(a*10)%10)
+
+Код№7 - a = float(input()) print(a - int(a))
+
+Код№8 - a = int(input()) b = int(input()) c = int(input()) d = int(input()) e = int(input()) print('Наименьшее число = ', min(a, b, c, d, e)) print(' Наибольшее число =', max(a, b, c, d, e))
+
+Код№9 - a, b, c = int(input()), int(input()), int(input()) print(max(a, b, c)) print(a + b + c - min (a, b, c) - max(a, b, c)) print(min(a, b, c))
+
+Код№10 - x = int(input()) a = x % 10 b = x // 10 % 10 c = x // 100 if a + b + c == 2 * max(a, b, c): print("Число интересное") else: print("Число неинтересное")
+
+Код№11 - print(sum((abs(float(input())) for i in range(5))))
+
+Код№12 - p1, p2, q1, q2 = [int(input()) for _ in range(4)] print(abs(p1 - q1) + abs(p2 - q2))
+        ![image](https://user-images.githubusercontent.com/97594421/163119074-41bf03f9-3e6f-4d52-81a2-55ec5bacdddb.png)
