@@ -31,7 +31,8 @@ https://stepik.org/course/Поколение-Python-курс-для-начина
         print('*****')
         print('******')
         print('*******')
-        
+      
+
 Код№5 - name=input()
         print('Привет,', name)
         
@@ -227,3 +228,155 @@ if a2 < a1: if b2 < a1: print('пустое множество' elif b2 == a1: p
 
 Код№12 - p1, p2, q1, q2 = [int(input()) for _ in range(4)] print(abs(p1 - q1) + abs(p2 - q2))
         ![image](https://user-images.githubusercontent.com/97594421/163119074-41bf03f9-3e6f-4d52-81a2-55ec5bacdddb.png)
+         <strong> 6.2 Модуль math</strong>
+        Код№1 -import math
+x1, x2, y1, y2 = float(input()), float(input()), float(input()), float(input())
+print(math.hypot(x1 - y1, x2 - y2))
+
+        Код№2 -R = float(input())
+from math import pi
+print(pi*R**2)
+print(2*pi*R)
+        Код№3 -import math
+a, b  = float(input()), float(input())
+sab, pab = a + b, a * b
+print(sab / 2)
+print(math.sqrt(pab))
+print(2 * pab / sab)
+print(math.sqrt((a**2 + b**2) / 2))
+        Код№4 -from math import *
+x = radians(float(input()))
+print(sin(x) + cos(x) + tan(x)**2)
+        Код№5 -import math
+a = float(input())
+print(math.ceil(a) + math.floor(a))
+        Код№6 -from math import *
+
+a = float(input())
+b = float(input())
+c = float(input())
+d = b**2-4*a*c
+
+if d < 0:
+    print('Нет корней')
+elif d == 0:
+    print(-b / (2*a))
+elif d > 0:
+    x1 = (-b - d ** 0.5) / (2*a)
+    x2 = (-b + d ** 0.5) / (2*a)
+    print(min(x1, x2))
+    print(max(x1, x2))
+        Код№7 -from math import *
+n, a = float(input()), float(input())
+ans = (n * pow(a, 2)) / (4 * tan(pi / n))
+print(ans)
+        
+![image](https://user-images.githubusercontent.com/97594421/167692131-526bc4da-2e88-4d1c-ac77-b6a9152c18a6.png)
+ <strong>6.3 Строковый тип данных</strong>
+Код№1 - import math
+x1, x2, y1, y2 = float(input()), float(input()), float(input()), float(input())
+print(math.hypot(x1 - y1, x2 - y2))
+Код№2 - R = float(input())
+from math import pi
+print(pi*R**2)
+print(2*pi*R)
+Код№3 - import math
+a, b  = float(input()), float(input())
+sab, pab = a + b, a * b
+print(sab / 2)
+print(math.sqrt(pab))
+print(2 * pab / sab)
+print(math.sqrt((a**2 + b**2) / 2))
+
+Код№4 -from math import *
+x = radians(float(input()))
+print(sin(x) + cos(x) + tan(x)**2)
+Код№5 - import math
+a = float(input())
+print(math.ceil(a) + math.floor(a))
+
+Код№6 - from math import *
+
+a = float(input())
+b = float(input())
+c = float(input())
+d = b**2-4*a*c
+
+if d < 0:
+    print('Нет корней')
+elif d == 0:
+    print(-b / (2*a))
+elif d > 0:
+    x1 = (-b - d ** 0.5) / (2*a)
+    x2 = (-b + d ** 0.5) / (2*a)
+    print(min(x1, x2))
+    print(max(x1, x2))
+Код№7 - from math import *
+n, a = float(input()), float(input())
+ans = (n * pow(a, 2)) / (4 * tan(pi / n))
+print(ans)
+![image](https://user-images.githubusercontent.com/97594421/167693160-4c586c06-9eaa-4e07-be75-e5cb2b8011dc.png)
+
+<strong>7.1 Цикл for</strong>
+Код№1 - print('Python is awesome!\n' * 10)
+Код№2 - a = input()
+b = int(input())
+for i in range(b):
+    print(a)
+Код№3 - for i in range(6):
+    print('A' * 3)
+for i in range(5):
+    print('B' * 4)
+print('E')
+for i in range(9):
+    print('T' * 5)
+print('G')
+Код№4 - n = int(input())
+for i in range(n):
+    print('*' * 19)
+Код№5 - a = input()
+for b in range(10):
+    print(b, a)
+Код№6 - n=int(input())
+for i in range(n+1):
+    print('Квадрат числа', i, 'равен', i**2)
+Код№7 -  g = int(input())
+for f in range(g, 0, -1):
+    print("*" * f)
+Код№8 - m, p, n = float(input()), float(input()), int(input())
+[print(i + 1, m * (1 + p / 100) ** (i)) for i in range(n)]  
+        ![image](https://user-images.githubusercontent.com/97594421/167695138-ba28d5f3-8419-48c5-aea1-9514bcd6fa71.png)
+
+<strong>7.2 Цикл for: функция range</strong>
+Код№1 - c = int(input())
+v = int(input())
+for i in range (c, v+1):
+    print(i)
+Код№2 - n, m = int(input()), int(input())
+
+if n < m:
+    for i in range(n, m + 1):
+        print(i)
+else:
+    for i in range(n, m - 1, -1):
+        print(i)
+Код№3 - m, n = int(input()), int(input())
+
+start = ((m - 1) // 2) * 2 + 1
+
+for i in range(start, n - 1, -2):
+    print(i)
+Код№4 - m, n = int(input()), int(input())
+for i in range(m, n + 1):
+    if i % 17 == 0 or i % 10 == 9 or i % 15 == 0:
+        print(i)
+Код№5 - m, n = int(input()), int(input())
+for i in range(m, n + 1):
+    if i % 17 == 0 or i % 10 == 9 or i % 15 == 0:
+        print(i)
+Код№6 - a = int(input())
+
+for i in range(1, 11):
+    print(f"{a} x {i} = {i*a}")
+         ![image](https://user-images.githubusercontent.com/97594421/167695077-a692ca32-b75a-4977-b55a-532e837ff600.png)
+
